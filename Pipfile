@@ -1,0 +1,21 @@
+[[source]]
+name = "pypi"
+url = "https://mirrors.aliyun.com/pypi/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+fastapi = "*"
+click = "*"
+aiofiles = "*"
+aiosqlite = "*"
+pandas = "*"
+uvicorn = "*"
+python-multipart = "*"
+sqlalchemy = "*"
+databases = "*"
+jinja2 = "*"
+
+[requires]
+python_version = "3.8"
