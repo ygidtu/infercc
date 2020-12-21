@@ -15,7 +15,7 @@
                     </span>
                 </div>
 
-                <div id="download" v-if="this.files.length > 0">
+                <div id="download" v-if="typeof this.files !== 'undefined' && this.files.length > 0">
                     <el-divider>Results</el-divider>
 
                     <div v-for="f in this.files" :key="f">
@@ -36,8 +36,7 @@ import urls from "../../utils/const"
 export default {
     name: "note",
     props: {
-        data: { required: true},
-        tag: {}, files: {}
+        data: { required: true}
     },
     data() {
         return {
@@ -52,7 +51,51 @@ export default {
                 "Note": "note"
             },     
             urls: urls,
+            tag: "",
+            files: []
         }
     },
+    methods: {
+        get_tag(data) {
+            if(data.status !== "") {
+                let status = data.status;
+                if (status === "Failed") {
+                    this.tag = "danger"
+                }
+                if (status === "Created") {
+                    this.tag = "info"
+                }
+                if (status === "Finished") {
+                    this.tag = "success"
+                }
+            }
+        },
+        get_files(data) {
+            if (data.status !== "") {
+                const self = this
+                this.axios.get(this.urls.file, {params: { name: data["name"] }}).then(response => {
+                    self.files = response.data
+                }).catch(error => {
+                    self.$notify({
+                        showClose: true,
+                        type: 'error',
+                        title: `Error Status: ${error.response.status}`,
+                        message: error.response.data["message"]
+                    });
+                })
+            }
+        },
+    },
+    watch: {
+        $props: {
+            handler() {
+                this.get_tag(this.$props.data)
+                this.get_files(this.$props.data)
+            },
+            deep: true,
+            immediate: true,
+        }
+    }
+    
 }
 </script>

@@ -32,10 +32,6 @@
                 <i class="el-icon-help" />
                 <span slot="title">Help</span>
               </el-menu-item>
-              <el-menu-item @click="open">
-                <i class="el-icon-notebook-2" />
-                <span slot="title">Github</span>
-              </el-menu-item>
             </el-menu>
           </el-col>
         </el-row>
@@ -66,7 +62,7 @@
     export default {
         data() {
             return {
-                name: "Infer cell compositions",
+                name: "inferCC",
                 windowHeight: "600px",
             }
         },

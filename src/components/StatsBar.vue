@@ -37,7 +37,7 @@ export default {
                 xAxis.push(val.tissue)
                 values.push(val.num);
             }
-            console.log(values)
+
             return {
                 toolbox: {
                     show: true,

@@ -8,11 +8,12 @@
         <el-divider />
 
         <h2>Statistics</h2>
-        <el-row>
+        <!-- <el-row>
             <el-radio-group v-model="choose.sel" @change="select_choose">
                 <el-radio-button v-for="key in data.source" :label="key" :key="key"  />
             </el-radio-group>
-        </el-row>
+        </el-row> -->
+        <el-cascader-panel :options="data.source" v-model="choose.sel" @change="select_choose" />
         <el-divider />
         <el-row>
             <StatBar :data="choose.data" />
@@ -25,7 +26,7 @@
                     label="Source"
                     width="180">
                     <template slot-scope="scope">
-                        <span>{{ scope.row.source }}<sup>[{{scope.row.ref}}]</sup></span>
+                        <span>{{ scope.row.source }}</span>
                     </template>
                 </el-table-column>
                 <el-table-column
@@ -39,7 +40,7 @@
                 </el-table-column>
             </el-table>
         </el-row>
-        <el-divider />
+        <!-- <el-divider />
         <h2>Reference</h2>
         <el-row :gutter="20" >
             <el-divider >Datasets</el-divider>
@@ -68,7 +69,7 @@
                     </div>
                 </el-card>
             </el-col>
-        </el-row>
+        </el-row> -->
     </div>
 </template>
 
@@ -83,39 +84,29 @@
         data() {
             return {
                 page: "",
-                reference: [
-                    'Wang, X., Park, J., Susztak, K., Zhang, N. R., & Li, M. (2019). Bulk tissue cell type deconvolution with multi-subject single-cell expression reference. Nature communications, 10(1), 1-9.',
-                    'Hunt, G. J., Freytag, S., Bahlo, M., & Gagnon-Bartsch, J. A. (2019). dtangle: accurate and robust cell type deconvolution. Bioinformatics, 35(12), 2093-2099.',
-                ],
-                datasets: [
-                    'Lonsdale, J., Thomas, J., Salvatore, M., Phillips, R., Lo, E., Shad, S., ... & Foster, B. (2013). The genotype-tissue expression (GTEx) project. Nature genetics, 45(6), 580-585.',
-                    'Han, X., Zhou, Z., Fei, L., Sun, H., Wang, R., Chen, Y., ... & Zhou, Y. (2020). Construction of a human cell landscape at single-cell level. Nature, 581(7808), 303-309.',
-                    'processing, Library, p., sequencing, Computational data, a., Cell type, a., Writing, g. (2018). Single-cell transcriptomics of 20 mouse organs creates a Tabula Muris. Nature, 562, 367-372.',
-                ],
                 choose: {
-                    sel: "GTEx",
+                    sel: ["human", "rna-seq", "GTEx"],
                     data: []
                 },
-                data: {source: [], data: []},
-                urls: urls
+                // data: {source: [], data: []},
+                urls: urls,
+                data: {source: {}, data: []}
             }
         },
         methods: {
             select_choose () {
                 let res = []
-
                 for (let i of this.data.data) {
-                    if (i.source === this.choose.sel) {
+                    if (i.source === this.choose.sel[2]) {
                         res.push(i)
                     }
                 }
                 this.choose.data = res
-            }
+            },
         },
         mounted() {
             const self = this
-
-            this.axios.get(`${urls.static}/num.json`).
+            this.axios.get(`${urls.static}/num_v2.json`).
             then(response => { this.data = response.data }).
             finally(() => {
                 this.select_choose()

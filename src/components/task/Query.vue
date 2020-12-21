@@ -12,7 +12,7 @@
                         <el-col :span="4">
                             <el-form-item>
                                 <el-button 
-                                type="success" 
+                                type="success" plain
                                 :icon="uuid !== '' ? 'el-icon-check' : 'el-icon-close'" 
                                 :disabled="uuid === ''"
                                 @click="query">
@@ -24,7 +24,7 @@
                     <el-col :span="4">
                         <el-form-item>
                             <el-button 
-                            type="info"
+                            type="primary" plain
                             @click="example">
                                 Example
                             </el-button>
@@ -37,7 +37,7 @@
         <el-row :gutter="20" v-if="uuid !== '' && task.uuid !== ''">
             <el-divider />
             <el-col :span="24">
-            <note :data="this.task" :tag="this.tag" :files="this.files" />
+            <note v-if="this.tag !== ''" :data="this.task" />
             </el-col>
         </el-row>
     </div>
@@ -90,7 +90,6 @@
                 this.axios.get(this.urls.task, {
                     params: {uuid: this.uuid}
                 }).then(response => {
-                    // console.log(response)
                     self.task = response.data
                 }).catch(error => {
                     self.$notify({
@@ -99,36 +98,8 @@
                         title: `Error Status: ${error.response.status}`,
                         message: error.response.data["message"]
                     });
-                }) .finally(() => {
-                    self.get_tag(self.task)
-                    self.get_files(self.task)
                 })
-            },
-            get_tag(data) {
-                let status = data.status;
-                if (status === "Failed") {
-                    this.tag = "danger"
-                }
-                if (status === "Created") {
-                    this.tag = "info"
-                }
-                if (status === "Finished") {
-                    this.tag = "success"
-                }
-            },
-            get_files(data) {
-                const self = this
-                this.axios.get(this.urls.file, {params: { name: data["input"] }}).then(response => {
-                    self.files = response.data
-                }).catch(error => {
-                    self.$notify({
-                        showClose: true,
-                        type: 'error',
-                        title: `Error Status: ${error.response.status}`,
-                        message: error.response.data["message"]
-                    });
-                })
-            },
+            }
         }
     }
 </script>

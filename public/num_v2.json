@@ -1,8 +1,97 @@
 {
     "source": [
-        "GTEx",
-        "Human cell atlas",
-        "Tabula muris"
+        {
+            "value": "human",
+            "label": "Human",
+            "children": [
+                {
+                    "value": "rna-seq",
+                    "label": "bulk RNA-seq",
+                    "children": [
+                        {
+                            "value": "GTEx",
+                            "label": "GTEx"
+                        }
+                    ]
+                },
+                {
+                    "value": "scrna-seq",
+                    "label": "scRNA-seq",
+                    "children": [
+                        {
+                            "value": "Human cell atlas",
+                            "label": "Human cell atlas"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "value": "mouse",
+            "label": "Mouse",
+            "children": [
+                {
+                    "value": "rna-seq",
+                    "label": "bulk RNA-seq",
+                    "children": [
+                        {
+                            "value": "PRJDB5724",
+                            "label": "PRJDB5724"
+                        },
+                        {
+                            "value": "PRJEB26869",
+                            "label": "PRJEB26869"
+                        },
+                        {
+                            "value": "PRJEB27404",
+                            "label": "PRJEB27404"
+                        },
+                        {
+                            "value": "PRJNA143627",
+                            "label": "PRJNA143627"
+                        },
+                        {
+                            "value": "PRJNA176589",
+                            "label": "PRJNA176589"
+                        },
+                        {
+                            "value": "PRJNA177791",
+                            "label": "PRJNA177791"
+                        },
+                        {
+                            "value": "PRJNA186646",
+                            "label": "PRJNA186646"
+                        },
+                        {
+                            "value": "PRJNA237293",
+                            "label": "PRJNA237293"
+                        },
+                        {
+                            "value": "PRJNA381064",
+                            "label": "PRJNA381064"
+                        },
+                        {
+                            "value": "PRJNA470431",
+                            "label": "PRJNA470431"
+                        }
+                    ]
+                },
+                {
+                    "value": "scrna-seq",
+                    "label": "scRNA-seq",
+                    "children": [
+                        {
+                            "value": "Mouse cell atlas",
+                            "label": "Mouse cell atlas"
+                        },
+                        {
+                            "value": "Tabula muris",
+                            "label": "Tabula muris"
+                        }
+                    ]
+                }
+            ]
+        }
     ],
     "data": [
         {
@@ -802,6 +891,594 @@
             "tissue": "NeonatalAdrenalGland",
             "num": 5863,
             "ref": 2
+        },
+        {
+            "source": "Mouse cell atlas",
+            "ref": 4,
+            "num": 2746,
+            "tissue": "Bladder"
+        },
+        {
+            "source": "Mouse cell atlas",
+            "ref": 4,
+            "num": 26483,
+            "tissue": "Bone-Marrow_c-kit"
+        },
+        {
+            "source": "Mouse cell atlas",
+            "ref": 4,
+            "num": 7365,
+            "tissue": "Bone_Marrow_Mesenchyme"
+        },
+        {
+            "source": "Mouse cell atlas",
+            "ref": 4,
+            "num": 9049,
+            "tissue": "Bone-Marrow"
+        },
+        {
+            "source": "Mouse cell atlas",
+            "ref": 4,
+            "num": 4038,
+            "tissue": "Brain"
+        },
+        {
+            "source": "Mouse cell atlas",
+            "ref": 4,
+            "num": 2771,
+            "tissue": "Embryonic-Mesenchyme"
+        },
+        {
+            "source": "Mouse cell atlas",
+            "ref": 4,
+            "num": 9991,
+            "tissue": "Embryonic-Stem-Cell"
+        },
+        {
+            "source": "Mouse cell atlas",
+            "ref": 4,
+            "num": 8462,
+            "tissue": "Female_Fetal_Gonad"
+        },
+        {
+            "source": "Mouse cell atlas",
+            "ref": 4,
+            "num": 4369,
+            "tissue": "Fetal_Brain"
+        },
+        {
+            "source": "Mouse cell atlas",
+            "ref": 4,
+            "num": 6076,
+            "tissue": "Fetal_Intestine"
+        },
+        {
+            "source": "Mouse cell atlas",
+            "ref": 4,
+            "num": 2699,
+            "tissue": "Fetal-Liver"
+        },
+        {
+            "source": "Mouse cell atlas",
+            "ref": 4,
+            "num": 6453,
+            "tissue": "Fetal_Lung"
+        },
+        {
+            "source": "Mouse cell atlas",
+            "ref": 4,
+            "num": 6192,
+            "tissue": "Fetal_Stomache"
+        },
+        {
+            "source": "Mouse cell atlas",
+            "ref": 4,
+            "num": 4673,
+            "tissue": "Kidney"
+        },
+        {
+            "source": "Mouse cell atlas",
+            "ref": 4,
+            "num": 4685,
+            "tissue": "Liver"
+        },
+        {
+            "source": "Mouse cell atlas",
+            "ref": 4,
+            "num": 6940,
+            "tissue": "Lung"
+        },
+        {
+            "source": "Mouse cell atlas",
+            "ref": 4,
+            "num": 3472,
+            "tissue": "Male_Fetal_Gonad"
+        },
+        {
+            "source": "Mouse cell atlas",
+            "ref": 4,
+            "num": 7319,
+            "tissue": "Mesenchymal-Stem-Cell-Cultured"
+        },
+        {
+            "source": "Mouse cell atlas",
+            "ref": 4,
+            "num": 1102,
+            "tissue": "Muscle"
+        },
+        {
+            "source": "Mouse cell atlas",
+            "ref": 4,
+            "num": 2389,
+            "tissue": "Neonatal_Brain"
+        },
+        {
+            "source": "Mouse cell atlas",
+            "ref": 4,
+            "num": 7964,
+            "tissue": "Neonatal-Calvaria"
+        },
+        {
+            "source": "Mouse cell atlas",
+            "ref": 4,
+            "num": 3948,
+            "tissue": "Neonatal-Heart"
+        },
+        {
+            "source": "Mouse cell atlas",
+            "ref": 4,
+            "num": 4873,
+            "tissue": "Neonatal-Muscle"
+        },
+        {
+            "source": "Mouse cell atlas",
+            "ref": 4,
+            "num": 6262,
+            "tissue": "Neonatal-Rib"
+        },
+        {
+            "source": "Mouse cell atlas",
+            "ref": 4,
+            "num": 3392,
+            "tissue": "Neonatal-Skin"
+        },
+        {
+            "source": "Mouse cell atlas",
+            "ref": 4,
+            "num": 4363,
+            "tissue": "Ovary"
+        },
+        {
+            "source": "Mouse cell atlas",
+            "ref": 4,
+            "num": 3610,
+            "tissue": "Pancreas"
+        },
+        {
+            "source": "Mouse cell atlas",
+            "ref": 4,
+            "num": 7095,
+            "tissue": "Peripheral_Blood"
+        },
+        {
+            "source": "Mouse cell atlas",
+            "ref": 4,
+            "num": 4346,
+            "tissue": "Placenta"
+        },
+        {
+            "source": "Mouse cell atlas",
+            "ref": 4,
+            "num": 2505,
+            "tissue": "Prostate"
+        },
+        {
+            "source": "Mouse cell atlas",
+            "ref": 4,
+            "num": 6684,
+            "tissue": "Small-Intestine"
+        },
+        {
+            "source": "Mouse cell atlas",
+            "ref": 4,
+            "num": 1970,
+            "tissue": "Spleen"
+        },
+        {
+            "source": "Mouse cell atlas",
+            "ref": 4,
+            "num": 2389,
+            "tissue": "Stomach"
+        },
+        {
+            "source": "Mouse cell atlas",
+            "ref": 4,
+            "num": 14005,
+            "tissue": "Testis"
+        },
+        {
+            "source": "Mouse cell atlas",
+            "ref": 4,
+            "num": 4289,
+            "tissue": "Thymus"
+        },
+        {
+            "source": "Mouse cell atlas",
+            "ref": 4,
+            "num": 19489,
+            "tissue": "Trophoblast-Stem-Cell"
+        },
+        {
+            "source": "Mouse cell atlas",
+            "ref": 4,
+            "num": 3739,
+            "tissue": "Uterus"
+        },
+        {
+            "source": "Mouse cell atlas",
+            "ref": 4,
+            "num": 9432,
+            "tissue": "Fetal_Kidney"
+        },
+        {
+            "source": "Mouse cell atlas",
+            "ref": 4,
+            "num": 4821,
+            "tissue": "MammaryGland.Involution"
+        },
+        {
+            "source": "Mouse cell atlas",
+            "ref": 4,
+            "num": 13538,
+            "tissue": "MammaryGland.Lactation"
+        },
+        {
+            "source": "Mouse cell atlas",
+            "ref": 4,
+            "num": 4909,
+            "tissue": "MammaryGland.Pregnancy"
+        },
+        {
+            "source": "Mouse cell atlas",
+            "ref": 4,
+            "num": 5380,
+            "tissue": "MammaryGland.Virgin"
+        },
+        {
+            "source": "Mouse cell atlas",
+            "ref": 4,
+            "num": 4571,
+            "tissue": "NeonatalPancreas"
+        },
+        {
+            "source": "PRJDB5724",
+            "ref": 4,
+            "num": 24,
+            "tissue": "Heart"
+        },
+        {
+            "source": "PRJEB26869",
+            "ref": 4,
+            "num": 55,
+            "tissue": "Heart"
+        },
+        {
+            "source": "PRJEB26869",
+            "ref": 4,
+            "num": 58,
+            "tissue": "Liver"
+        },
+        {
+            "source": "PRJEB26869",
+            "ref": 4,
+            "num": 28,
+            "tissue": "Ovary"
+        },
+        {
+            "source": "PRJEB26869",
+            "ref": 4,
+            "num": 27,
+            "tissue": "Testis"
+        },
+        {
+            "source": "PRJEB26869",
+            "ref": 4,
+            "num": 55,
+            "tissue": "Brain"
+        },
+        {
+            "source": "PRJEB26869",
+            "ref": 4,
+            "num": 51,
+            "tissue": "Kidney"
+        },
+        {
+            "source": "PRJEB26869",
+            "ref": 4,
+            "num": 43,
+            "tissue": "Cerebellum"
+        },
+        {
+            "source": "PRJEB27404",
+            "ref": 4,
+            "num": 30,
+            "tissue": "Testis"
+        },
+        {
+            "source": "PRJNA237293",
+            "ref": 4,
+            "num": 8,
+            "tissue": "Adrenal gland"
+        },
+        {
+            "source": "PRJNA237293",
+            "ref": 4,
+            "num": 8,
+            "tissue": "Aorta"
+        },
+        {
+            "source": "PRJNA237293",
+            "ref": 4,
+            "num": 8,
+            "tissue": "Brainstem"
+        },
+        {
+            "source": "PRJNA237293",
+            "ref": 4,
+            "num": 8,
+            "tissue": "Brown Adipose"
+        },
+        {
+            "source": "PRJNA237293",
+            "ref": 4,
+            "num": 8,
+            "tissue": "Cerebellum"
+        },
+        {
+            "source": "PRJNA237293",
+            "ref": 4,
+            "num": 8,
+            "tissue": "Heart"
+        },
+        {
+            "source": "PRJNA237293",
+            "ref": 4,
+            "num": 8,
+            "tissue": "Hypothalamus"
+        },
+        {
+            "source": "PRJNA237293",
+            "ref": 4,
+            "num": 8,
+            "tissue": "Kidney"
+        },
+        {
+            "source": "PRJNA237293",
+            "ref": 4,
+            "num": 8,
+            "tissue": "Liver"
+        },
+        {
+            "source": "PRJNA237293",
+            "ref": 4,
+            "num": 8,
+            "tissue": "Lung"
+        },
+        {
+            "source": "PRJNA237293",
+            "ref": 4,
+            "num": 8,
+            "tissue": "Muscle"
+        },
+        {
+            "source": "PRJNA237293",
+            "ref": 4,
+            "num": 8,
+            "tissue": "White adipose"
+        },
+        {
+            "source": "PRJNA143627",
+            "ref": 4,
+            "num": 3,
+            "tissue": "Brain"
+        },
+        {
+            "source": "PRJNA143627",
+            "ref": 4,
+            "num": 3,
+            "tissue": "Cerebellum"
+        },
+        {
+            "source": "PRJNA143627",
+            "ref": 4,
+            "num": 3,
+            "tissue": "Heart"
+        },
+        {
+            "source": "PRJNA143627",
+            "ref": 4,
+            "num": 3,
+            "tissue": "Kidney"
+        },
+        {
+            "source": "PRJNA143627",
+            "ref": 4,
+            "num": 3,
+            "tissue": "Liver"
+        },
+        {
+            "source": "PRJNA143627",
+            "ref": 4,
+            "num": 2,
+            "tissue": "Testis"
+        },
+        {
+            "source": "PRJNA381064",
+            "ref": 4,
+            "num": 4,
+            "tissue": "Brain"
+        },
+        {
+            "source": "PRJNA381064",
+            "ref": 4,
+            "num": 4,
+            "tissue": "Heart"
+        },
+        {
+            "source": "PRJNA381064",
+            "ref": 4,
+            "num": 3,
+            "tissue": "Kidney"
+        },
+        {
+            "source": "PRJNA381064",
+            "ref": 4,
+            "num": 4,
+            "tissue": "Liver"
+        },
+        {
+            "source": "PRJNA381064",
+            "ref": 4,
+            "num": 2,
+            "tissue": "Ovary"
+        },
+        {
+            "source": "PRJNA381064",
+            "ref": 4,
+            "num": 2,
+            "tissue": "Testis"
+        },
+        {
+            "source": "PRJNA176589",
+            "ref": 4,
+            "num": 2,
+            "tissue": "Brain"
+        },
+        {
+            "source": "PRJNA176589",
+            "ref": 4,
+            "num": 1,
+            "tissue": "Liver"
+        },
+        {
+            "source": "PRJNA176589",
+            "ref": 4,
+            "num": 1,
+            "tissue": "Kidney"
+        },
+        {
+            "source": "PRJNA176589",
+            "ref": 4,
+            "num": 1,
+            "tissue": "Heart"
+        },
+        {
+            "source": "PRJNA176589",
+            "ref": 4,
+            "num": 1,
+            "tissue": "Muscle"
+        },
+        {
+            "source": "PRJNA177791",
+            "ref": 4,
+            "num": 3,
+            "tissue": "Brain"
+        },
+        {
+            "source": "PRJNA177791",
+            "ref": 4,
+            "num": 3,
+            "tissue": "Colon"
+        },
+        {
+            "source": "PRJNA177791",
+            "ref": 4,
+            "num": 2,
+            "tissue": "Heart"
+        },
+        {
+            "source": "PRJNA177791",
+            "ref": 4,
+            "num": 3,
+            "tissue": "Kidney"
+        },
+        {
+            "source": "PRJNA177791",
+            "ref": 4,
+            "num": 3,
+            "tissue": "Liver"
+        },
+        {
+            "source": "PRJNA177791",
+            "ref": 4,
+            "num": 3,
+            "tissue": "Lung"
+        },
+        {
+            "source": "PRJNA177791",
+            "ref": 4,
+            "num": 3,
+            "tissue": "Muscle"
+        },
+        {
+            "source": "PRJNA177791",
+            "ref": 4,
+            "num": 3,
+            "tissue": "Spleen"
+        },
+        {
+            "source": "PRJNA177791",
+            "ref": 4,
+            "num": 3,
+            "tissue": "Testis"
+        },
+        {
+            "source": "PRJNA186646",
+            "ref": 4,
+            "num": 1,
+            "tissue": "Brain"
+        },
+        {
+            "source": "PRJNA186646",
+            "ref": 4,
+            "num": 3,
+            "tissue": "Ovary"
+        },
+        {
+            "source": "PRJNA186646",
+            "ref": 4,
+            "num": 4,
+            "tissue": "Placenta"
+        },
+        {
+            "source": "PRJNA186646",
+            "ref": 4,
+            "num": 1,
+            "tissue": "Testis"
+        },
+        {
+            "source": "PRJNA470431",
+            "ref": 4,
+            "num": 2,
+            "tissue": "Brain"
+        },
+        {
+            "source": "PRJNA470431",
+            "ref": 4,
+            "num": 2,
+            "tissue": "Heart"
+        },
+        {
+            "source": "PRJNA470431",
+            "ref": 4,
+            "num": 3,
+            "tissue": "Kidney"
+        },
+        {
+            "source": "PRJNA470431",
+            "ref": 4,
+            "num": 2,
+            "tissue": "Liver"
         }
     ]
 }
