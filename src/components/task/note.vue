@@ -15,7 +15,7 @@
                     </span>
                 </div>
 
-                <div id="download" v-if="this.tag === 'success'">
+                <div id="download" v-if="this.files.length > 0">
                     <el-divider>Results</el-divider>
 
                     <div v-for="f in this.files" :key="f">
@@ -37,6 +37,7 @@ export default {
     name: "note",
     props: {
         data: { required: true},
+        tag: {}, files: {}
     },
     data() {
         return {
@@ -49,47 +50,9 @@ export default {
                 "Tau": "tau",
                 "Software": "software",
                 "Note": "note"
-            },
-            tag: null,
+            },     
             urls: urls,
-            files: []
         }
     },
-
-    methods: {
-        get_files() {
-            const self = this
-            this.axios.get(urls.file, {params: { name: this.$props.data["name"] }}).then(response => {
-                self.files = response.data
-            }).catch(error => {
-                self.$notify({
-                    showClose: true,
-                    type: 'error',
-                    title: `Error Status: ${error.response.status}`,
-                    message: error.response.data["message"]
-                });
-            })
-        },
-        get_tag() {
-            let data = this.$props.data
-            let status = data["status"];
-
-            if (status === "Failed") {
-                this.tag = "danger"
-            }
-            if (status === "Created") {
-                this.tag = "info"
-            }
-
-            if (status === "Finished") {
-                this.tag = "success"
-                this.get_files()
-            }
-        }
-    },
-
-    mounted () {
-        this.get_tag()
-    }
 }
 </script>

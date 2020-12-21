@@ -5,6 +5,7 @@ import Browse from '../components/Browse'
 import Contact from '../components/Contact'
 import Home from '../components/Home'
 import Help from '../components/Help'
+import Docs from '../components/Docs'
 
 
 Vue.use(Router);
@@ -16,6 +17,7 @@ const routes = [
     { path: '/browse', component: Browse },
     { path: '/contact', component: Contact },
     { path: '/help', component: Help },
+    { path: '/docs', component: Docs },
       // Always leave this as last one,
       // but you can also remove it
     { path: '*',  component: () => import('../components/404.vue') }

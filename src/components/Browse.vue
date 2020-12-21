@@ -1,13 +1,17 @@
 <template>
     <div>
-        <el-tabs type="border-card">
-            <el-tab-pane label="Create">
-                <Create />
-            </el-tab-pane>
-            <el-tab-pane label="Query">
-                <Query />
-            </el-tab-pane>
-        </el-tabs>
+        <el-card class="box-card">
+            <div slot="header" class="clearfix">
+                <span>Create</span>
+            </div>
+            <Create />
+        </el-card>
+        <el-card class="box-card">
+            <div slot="header" class="clearfix">
+                <span>Query</span>
+            </div>
+            <Query />
+        </el-card>
     </div>
 </template>
 

@@ -21,17 +21,17 @@ class Server:
     cert = "/mnt/cov.pem"
     reload = False
 
-    @property
-    def species():
-        if os.path.exists(self.ref):
-            return sorted([x for x in os.listdir(self.ref) if os.path.isdir(os.path.join(self.ref, x))])
-        return []
+
+def __species__(ref):
+    if os.path.exists(ref):
+        return sorted([x for x in os.listdir(ref) if os.path.isdir(os.path.join(ref, x))])
+    return []
 
 
 DATABASE = os.path.join(__dir__, "infercc.db")
 SOFTWARE = ("MuSiC", "dtangle")
 
-SPECIES = Server.species
+SPECIES = __species__(Server.ref)
 
 
 if __name__ == '__main__':

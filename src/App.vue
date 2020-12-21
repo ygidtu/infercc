@@ -12,14 +12,17 @@
               active-text-color="#ffd04b"
               router mode="horizontal"
             >
-
               <el-menu-item index="/home">
                 <i class="el-icon-s-home" />
                 <span slot="title">Home</span>
               </el-menu-item>
               <el-menu-item index="/browse">
                 <i class="el-icon-folder-opened" />
-                <span slot="title">Task</span>
+                <span slot="title">Web service</span>
+              </el-menu-item>
+              <el-menu-item index="/docs">
+                <i class="el-icon-s-data" />
+                <span slot="title">Statistics</span>
               </el-menu-item>
               <el-menu-item index="/contact">
                   <i class="el-icon-user" />
@@ -28,7 +31,11 @@
               <el-menu-item index="/help">
                 <i class="el-icon-help" />
                 <span slot="title">Help</span>
-              </el-menu-item>             
+              </el-menu-item>
+              <el-menu-item @click="open">
+                <i class="el-icon-notebook-2" />
+                <span slot="title">Github</span>
+              </el-menu-item>
             </el-menu>
           </el-col>
         </el-row>
@@ -65,7 +72,7 @@
         },
         methods: {
           open() {
-            window.location.replace(urls.docs)
+            window.location.replace("https://github.com/ygidtu/infercc")
           }
         },
         mounted() {

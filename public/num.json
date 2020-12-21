@@ -1,0 +1,807 @@
+{
+    "source": [
+        "GTEx",
+        "Human cell atlas",
+        "Tabula muris"
+    ],
+    "data": [
+        {
+            "source": "GTEx",
+            "tissue": "Adipose - Subcutaneous",
+            "num": 442,
+            "ref": 1
+        },
+        {
+            "source": "GTEx",
+            "tissue": "Adipose - Visceral (Omentum)",
+            "num": 355,
+            "ref": 1
+        },
+        {
+            "source": "GTEx",
+            "tissue": "Adrenal Gland",
+            "num": 190,
+            "ref": 1
+        },
+        {
+            "source": "GTEx",
+            "tissue": "Artery - Aorta",
+            "num": 299,
+            "ref": 1
+        },
+        {
+            "source": "GTEx",
+            "tissue": "Artery - Coronary",
+            "num": 173,
+            "ref": 1
+        },
+        {
+            "source": "GTEx",
+            "tissue": "Artery - Tibial",
+            "num": 441,
+            "ref": 1
+        },
+        {
+            "source": "GTEx",
+            "tissue": "Bladder",
+            "num": 11,
+            "ref": 1
+        },
+        {
+            "source": "GTEx",
+            "tissue": "Brain - Amygdala",
+            "num": 100,
+            "ref": 1
+        },
+        {
+            "source": "GTEx",
+            "tissue": "Brain - Anterior cingulate cortex (BA24)",
+            "num": 121,
+            "ref": 1
+        },
+        {
+            "source": "GTEx",
+            "tissue": "Brain - Caudate (basal ganglia)",
+            "num": 160,
+            "ref": 1
+        },
+        {
+            "source": "GTEx",
+            "tissue": "Brain - Cerebellar Hemisphere",
+            "num": 136,
+            "ref": 1
+        },
+        {
+            "source": "GTEx",
+            "tissue": "Brain - Cerebellum",
+            "num": 173,
+            "ref": 1
+        },
+        {
+            "source": "GTEx",
+            "tissue": "Brain - Cortex",
+            "num": 158,
+            "ref": 1
+        },
+        {
+            "source": "GTEx",
+            "tissue": "Brain - Frontal Cortex (BA9)",
+            "num": 129,
+            "ref": 1
+        },
+        {
+            "source": "GTEx",
+            "tissue": "Brain - Hippocampus",
+            "num": 123,
+            "ref": 1
+        },
+        {
+            "source": "GTEx",
+            "tissue": "Brain - Hypothalamus",
+            "num": 121,
+            "ref": 1
+        },
+        {
+            "source": "GTEx",
+            "tissue": "Brain - Nucleus accumbens (basal ganglia)",
+            "num": 147,
+            "ref": 1
+        },
+        {
+            "source": "GTEx",
+            "tissue": "Brain - Putamen (basal ganglia)",
+            "num": 124,
+            "ref": 1
+        },
+        {
+            "source": "GTEx",
+            "tissue": "Brain - Spinal cord (cervical c-1)",
+            "num": 91,
+            "ref": 1
+        },
+        {
+            "source": "GTEx",
+            "tissue": "Brain - Substantia nigra",
+            "num": 88,
+            "ref": 1
+        },
+        {
+            "source": "GTEx",
+            "tissue": "Breast - Mammary Tissue",
+            "num": 290,
+            "ref": 1
+        },
+        {
+            "source": "GTEx",
+            "tissue": "Cells - EBV-transformed lymphocytes",
+            "num": 130,
+            "ref": 1
+        },
+        {
+            "source": "GTEx",
+            "tissue": "Cells - Leukemia cell line (CML)",
+            "num": 0,
+            "ref": 1
+        },
+        {
+            "source": "GTEx",
+            "tissue": "Cells - Transformed fibroblasts",
+            "num": 343,
+            "ref": 1
+        },
+        {
+            "source": "GTEx",
+            "tissue": "Cervix - Ectocervix",
+            "num": 6,
+            "ref": 1
+        },
+        {
+            "source": "GTEx",
+            "tissue": "Cervix - Endocervix",
+            "num": 5,
+            "ref": 1
+        },
+        {
+            "source": "GTEx",
+            "tissue": "Colon - Sigmoid",
+            "num": 233,
+            "ref": 1
+        },
+        {
+            "source": "GTEx",
+            "tissue": "Colon - Transverse",
+            "num": 274,
+            "ref": 1
+        },
+        {
+            "source": "GTEx",
+            "tissue": "Esophagus - Gastroesophageal Junction",
+            "num": 244,
+            "ref": 1
+        },
+        {
+            "source": "GTEx",
+            "tissue": "Esophagus - Mucosa",
+            "num": 407,
+            "ref": 1
+        },
+        {
+            "source": "GTEx",
+            "tissue": "Esophagus - Muscularis",
+            "num": 370,
+            "ref": 1
+        },
+        {
+            "source": "GTEx",
+            "tissue": "Fallopian Tube",
+            "num": 7,
+            "ref": 1
+        },
+        {
+            "source": "GTEx",
+            "tissue": "Heart - Atrial Appendage",
+            "num": 297,
+            "ref": 1
+        },
+        {
+            "source": "GTEx",
+            "tissue": "Heart - Left Ventricle",
+            "num": 303,
+            "ref": 1
+        },
+        {
+            "source": "GTEx",
+            "tissue": "Kidney - Cortex",
+            "num": 45,
+            "ref": 1
+        },
+        {
+            "source": "GTEx",
+            "tissue": "Liver",
+            "num": 175,
+            "ref": 1
+        },
+        {
+            "source": "GTEx",
+            "tissue": "Lung",
+            "num": 427,
+            "ref": 1
+        },
+        {
+            "source": "GTEx",
+            "tissue": "Minor Salivary Gland",
+            "num": 97,
+            "ref": 1
+        },
+        {
+            "source": "GTEx",
+            "tissue": "Muscle - Skeletal",
+            "num": 564,
+            "ref": 1
+        },
+        {
+            "source": "GTEx",
+            "tissue": "Nerve - Tibial",
+            "num": 414,
+            "ref": 1
+        },
+        {
+            "source": "GTEx",
+            "tissue": "Ovary",
+            "num": 133,
+            "ref": 1
+        },
+        {
+            "source": "GTEx",
+            "tissue": "Pancreas",
+            "num": 248,
+            "ref": 1
+        },
+        {
+            "source": "GTEx",
+            "tissue": "Pituitary",
+            "num": 183,
+            "ref": 1
+        },
+        {
+            "source": "GTEx",
+            "tissue": "Prostate",
+            "num": 152,
+            "ref": 1
+        },
+        {
+            "source": "GTEx",
+            "tissue": "Skin - Not Sun Exposed (Suprapubic)",
+            "num": 387,
+            "ref": 1
+        },
+        {
+            "source": "GTEx",
+            "tissue": "Skin - Sun Exposed (Lower leg)",
+            "num": 473,
+            "ref": 1
+        },
+        {
+            "source": "GTEx",
+            "tissue": "Small Intestine - Terminal Ileum",
+            "num": 137,
+            "ref": 1
+        },
+        {
+            "source": "GTEx",
+            "tissue": "Spleen",
+            "num": 162,
+            "ref": 1
+        },
+        {
+            "source": "GTEx",
+            "tissue": "Stomach",
+            "num": 262,
+            "ref": 1
+        },
+        {
+            "source": "GTEx",
+            "tissue": "Testis",
+            "num": 259,
+            "ref": 1
+        },
+        {
+            "source": "GTEx",
+            "tissue": "Thyroid",
+            "num": 446,
+            "ref": 1
+        },
+        {
+            "source": "GTEx",
+            "tissue": "Uterus",
+            "num": 111,
+            "ref": 1
+        },
+        {
+            "source": "GTEx",
+            "tissue": "Vagina",
+            "num": 115,
+            "ref": 1
+        },
+        {
+            "source": "GTEx",
+            "tissue": "Whole Blood",
+            "num": 407,
+            "ref": 1
+        },
+        {
+            "source": "Tabula muris",
+            "tissue": "Aorta",
+            "num": 408,
+            "ref": 3
+        },
+        {
+            "source": "Tabula muris",
+            "tissue": "Bladder",
+            "num": 1378,
+            "ref": 3
+        },
+        {
+            "source": "Tabula muris",
+            "tissue": "Brain_Myeloid",
+            "num": 4455,
+            "ref": 3
+        },
+        {
+            "source": "Tabula muris",
+            "tissue": "Brain_Non-Myeloid",
+            "num": 3401,
+            "ref": 3
+        },
+        {
+            "source": "Tabula muris",
+            "tissue": "Diaphragm",
+            "num": 870,
+            "ref": 3
+        },
+        {
+            "source": "Tabula muris",
+            "tissue": "Fat",
+            "num": 4967,
+            "ref": 3
+        },
+        {
+            "source": "Tabula muris",
+            "tissue": "Heart",
+            "num": 4365,
+            "ref": 3
+        },
+        {
+            "source": "Tabula muris",
+            "tissue": "Kidney",
+            "num": 519,
+            "ref": 3
+        },
+        {
+            "source": "Tabula muris",
+            "tissue": "Large_Intestine",
+            "num": 3938,
+            "ref": 3
+        },
+        {
+            "source": "Tabula muris",
+            "tissue": "Limb_Muscle",
+            "num": 1089,
+            "ref": 3
+        },
+        {
+            "source": "Tabula muris",
+            "tissue": "Liver",
+            "num": 714,
+            "ref": 3
+        },
+        {
+            "source": "Tabula muris",
+            "tissue": "Lung",
+            "num": 1716,
+            "ref": 3
+        },
+        {
+            "source": "Tabula muris",
+            "tissue": "Mammary_Gland",
+            "num": 2405,
+            "ref": 3
+        },
+        {
+            "source": "Tabula muris",
+            "tissue": "Marrow",
+            "num": 4725,
+            "ref": 3
+        },
+        {
+            "source": "Tabula muris",
+            "tissue": "Pancreas",
+            "num": 1564,
+            "ref": 3
+        },
+        {
+            "source": "Tabula muris",
+            "tissue": "Skin",
+            "num": 2310,
+            "ref": 3
+        },
+        {
+            "source": "Tabula muris",
+            "tissue": "Spleen",
+            "num": 1697,
+            "ref": 3
+        },
+        {
+            "source": "Tabula muris",
+            "tissue": "Thymus",
+            "num": 1349,
+            "ref": 3
+        },
+        {
+            "source": "Tabula muris",
+            "tissue": "Tongue",
+            "num": 1414,
+            "ref": 3
+        },
+        {
+            "source": "Tabula muris",
+            "tissue": "Trachea",
+            "num": 1350,
+            "ref": 3
+        },
+        {
+            "source": "Human cell atlas",
+            "tissue": "AdultAdipose",
+            "num": 1372,
+            "ref": 2
+        },
+        {
+            "source": "Human cell atlas",
+            "tissue": "AdultAdrenalGland",
+            "num": 23197,
+            "ref": 2
+        },
+        {
+            "source": "Human cell atlas",
+            "tissue": "AdultArtery",
+            "num": 9652,
+            "ref": 2
+        },
+        {
+            "source": "Human cell atlas",
+            "tissue": "AdultAscendingColon",
+            "num": 2026,
+            "ref": 2
+        },
+        {
+            "source": "Human cell atlas",
+            "tissue": "AdultBladder",
+            "num": 9048,
+            "ref": 2
+        },
+        {
+            "source": "Human cell atlas",
+            "tissue": "AdultBoneMarrow",
+            "num": 8704,
+            "ref": 2
+        },
+        {
+            "source": "Human cell atlas",
+            "tissue": "AdultCerebellum",
+            "num": 7324,
+            "ref": 2
+        },
+        {
+            "source": "Human cell atlas",
+            "tissue": "AdultCervix",
+            "num": 8096,
+            "ref": 2
+        },
+        {
+            "source": "Human cell atlas",
+            "tissue": "AdultTransverseColon",
+            "num": 16994,
+            "ref": 2
+        },
+        {
+            "source": "Human cell atlas",
+            "tissue": "AdultDuodenum",
+            "num": 4681,
+            "ref": 2
+        },
+        {
+            "source": "Human cell atlas",
+            "tissue": "AdultEpityphlon",
+            "num": 4486,
+            "ref": 2
+        },
+        {
+            "source": "Human cell atlas",
+            "tissue": "AdultEsophagus",
+            "num": 11364,
+            "ref": 2
+        },
+        {
+            "source": "Human cell atlas",
+            "tissue": "AdultFallopiantube",
+            "num": 6556,
+            "ref": 2
+        },
+        {
+            "source": "Human cell atlas",
+            "tissue": "AdultHeart",
+            "num": 2786,
+            "ref": 2
+        },
+        {
+            "source": "Human cell atlas",
+            "tissue": "AdultIleum",
+            "num": 3367,
+            "ref": 2
+        },
+        {
+            "source": "Human cell atlas",
+            "tissue": "AdultKidney",
+            "num": 22968,
+            "ref": 2
+        },
+        {
+            "source": "Human cell atlas",
+            "tissue": "AdultLiver",
+            "num": 10572,
+            "ref": 2
+        },
+        {
+            "source": "Human cell atlas",
+            "tissue": "AdultLung",
+            "num": 24051,
+            "ref": 2
+        },
+        {
+            "source": "Human cell atlas",
+            "tissue": "AdultMuscle",
+            "num": 7775,
+            "ref": 2
+        },
+        {
+            "source": "Human cell atlas",
+            "tissue": "AdultOmentum",
+            "num": 12812,
+            "ref": 2
+        },
+        {
+            "source": "Human cell atlas",
+            "tissue": "AdultPancreas",
+            "num": 9727,
+            "ref": 2
+        },
+        {
+            "source": "Human cell atlas",
+            "tissue": "AdultPeripheralBlood",
+            "num": 17331,
+            "ref": 2
+        },
+        {
+            "source": "Human cell atlas",
+            "tissue": "AdultPleura",
+            "num": 19695,
+            "ref": 2
+        },
+        {
+            "source": "Human cell atlas",
+            "tissue": "AdultProstate",
+            "num": 2445,
+            "ref": 2
+        },
+        {
+            "source": "Human cell atlas",
+            "tissue": "AdultRectum",
+            "num": 5718,
+            "ref": 2
+        },
+        {
+            "source": "Human cell atlas",
+            "tissue": "AdultSigmoidColon",
+            "num": 3281,
+            "ref": 2
+        },
+        {
+            "source": "Human cell atlas",
+            "tissue": "AdultSpleen",
+            "num": 15806,
+            "ref": 2
+        },
+        {
+            "source": "Human cell atlas",
+            "tissue": "AdultStomach",
+            "num": 14624,
+            "ref": 2
+        },
+        {
+            "source": "Human cell atlas",
+            "tissue": "AdultTemporalLobe",
+            "num": 9544,
+            "ref": 2
+        },
+        {
+            "source": "Human cell atlas",
+            "tissue": "AdultThyroid",
+            "num": 12647,
+            "ref": 2
+        },
+        {
+            "source": "Human cell atlas",
+            "tissue": "AdultTrachea",
+            "num": 9949,
+            "ref": 2
+        },
+        {
+            "source": "Human cell atlas",
+            "tissue": "AdultUreter",
+            "num": 2390,
+            "ref": 2
+        },
+        {
+            "source": "Human cell atlas",
+            "tissue": "AdultUterus",
+            "num": 7694,
+            "ref": 2
+        },
+        {
+            "source": "Human cell atlas",
+            "tissue": "ChorionicVillus",
+            "num": 9898,
+            "ref": 2
+        },
+        {
+            "source": "Human cell atlas",
+            "tissue": "CordBlood",
+            "num": 6594,
+            "ref": 2
+        },
+        {
+            "source": "Human cell atlas",
+            "tissue": "CordBloodCD34P",
+            "num": 16904,
+            "ref": 2
+        },
+        {
+            "source": "Human cell atlas",
+            "tissue": "FetalAdrenalGland",
+            "num": 14416,
+            "ref": 2
+        },
+        {
+            "source": "Human cell atlas",
+            "tissue": "FetalBrain",
+            "num": 13625,
+            "ref": 2
+        },
+        {
+            "source": "Human cell atlas",
+            "tissue": "FetalCalvaria",
+            "num": 5129,
+            "ref": 2
+        },
+        {
+            "source": "Human cell atlas",
+            "tissue": "FetalFemaleGonad",
+            "num": 6941,
+            "ref": 2
+        },
+        {
+            "source": "Human cell atlas",
+            "tissue": "FetalHeart",
+            "num": 7997,
+            "ref": 2
+        },
+        {
+            "source": "Human cell atlas",
+            "tissue": "FetalIntestine",
+            "num": 23516,
+            "ref": 2
+        },
+        {
+            "source": "Human cell atlas",
+            "tissue": "FetalKidney",
+            "num": 22662,
+            "ref": 2
+        },
+        {
+            "source": "Human cell atlas",
+            "tissue": "FetalLiver",
+            "num": 17929,
+            "ref": 2
+        },
+        {
+            "source": "Human cell atlas",
+            "tissue": "FetalLung",
+            "num": 9647,
+            "ref": 2
+        },
+        {
+            "source": "Human cell atlas",
+            "tissue": "FetalMaleGonad",
+            "num": 13211,
+            "ref": 2
+        },
+        {
+            "source": "Human cell atlas",
+            "tissue": "FetalMuscle",
+            "num": 18345,
+            "ref": 2
+        },
+        {
+            "source": "Human cell atlas",
+            "tissue": "FetalPancreas",
+            "num": 18746,
+            "ref": 2
+        },
+        {
+            "source": "Human cell atlas",
+            "tissue": "FetalRib",
+            "num": 5992,
+            "ref": 2
+        },
+        {
+            "source": "Human cell atlas",
+            "tissue": "FetalSkin",
+            "num": 6991,
+            "ref": 2
+        },
+        {
+            "source": "Human cell atlas",
+            "tissue": "FetalSpinalCord",
+            "num": 5916,
+            "ref": 2
+        },
+        {
+            "source": "Human cell atlas",
+            "tissue": "FetalStomach",
+            "num": 7953,
+            "ref": 2
+        },
+        {
+            "source": "Human cell atlas",
+            "tissue": "FetalThymus",
+            "num": 4516,
+            "ref": 2
+        },
+        {
+            "source": "Human cell atlas",
+            "tissue": "HESC",
+            "num": 1660,
+            "ref": 2
+        },
+        {
+            "source": "Human cell atlas",
+            "tissue": "Placenta",
+            "num": 9595,
+            "ref": 2
+        },
+        {
+            "source": "Human cell atlas",
+            "tissue": "AdultGallbladder",
+            "num": 9769,
+            "ref": 2
+        },
+        {
+            "source": "Human cell atlas",
+            "tissue": "AdultJeJunum",
+            "num": 5549,
+            "ref": 2
+        },
+        {
+            "source": "Human cell atlas",
+            "tissue": "FetalEyes",
+            "num": 1880,
+            "ref": 2
+        },
+        {
+            "source": "Human cell atlas",
+            "tissue": "NeonatalAdrenalGland",
+            "num": 5863,
+            "ref": 2
+        }
+    ]
+}
